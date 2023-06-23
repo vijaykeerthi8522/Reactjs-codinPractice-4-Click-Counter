@@ -1,0 +1,50 @@
+/* Write your CSS here */ /* Write your CSS here */
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #2d3a35;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 19px;
+}
+.count-num {
+  color: #c20a72;
+  font-size: 27px;
+  font-weight: bold;
+}
+.button {
+  height: 34px;
+  width: 79px;
+  background-color: #007bff;
+  color: #ffff;
+  border: 0px;
+  border-radius: 5px;
+  align-items: center;
+  margin: 19px;
+}
+.para {
+  height: 19px;
+  font-weight: 220px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .count-num {
+    font-size: 40px;
+  }
+  .para {
+    font-size: 22px;
+    font-weight: 300px;
+  }
+}
